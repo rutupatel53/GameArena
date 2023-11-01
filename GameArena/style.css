@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(109, 109, 109);
+}
+.top {
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.title {
+  padding-top: 0;
+  height: fit-content;
+  font-size: 50px;
+  color: red;
+  float: left;
+  padding-left: 20px;
+}
+.Navbar {
+  background-color: black;
+  font-family: "Times New Roman";
+  margin-left: 400px;
+  padding-top: 20px;
+  font-size: 25px;
+  list-style: none;
+}
+.Navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Navbar li {
+  display: inline;
+  padding-left: 70px;
+  color: red;
+}
+.Navbar a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.Navbar a:hover {
+  color: white;
+}
+.midlayer {
+  position: relative;
+}
+.midimg {
+  max-width: 100%;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  font-size: 30px;
+  font-style: initial;
+  transform: translate(-50%, -50%);
+  background-color: #cbc92b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.choosegame {
+  padding-left: 620px;
+  color: darkred;
+  font-size: 40px;
+  font-style: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+.game {
+  margin-left: 200px;
+  margin-right: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.game img {
+  max-width: 500px;
+  max-height: 500px;
+  transition: transform 0.3s;
+}
+.game:hover {
+  transform: scale(1.1);
+}
+.buy {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 10px;
+  font-size: 10px;
+  font-style: initial;
+  transform: translate(-50%, -50%);
+  background-color: #cbc92b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+}
