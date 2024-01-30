@@ -12,14 +12,14 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('803126110638-prtor4bv161i5ia5h33nn3gbhg1h5g78.apps.googleusercontent.com');
+$google_client->setClientId('');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('');
 
 //Set the OAuth 2.0 Redirect URI
 
-$google_client->setRedirectUri('http://localhost/GameArena/googleloginapi/index.php');
+$google_client->setRedirectUri('');
 // to get the email and profile 
 $google_client->addScope('email');
 
